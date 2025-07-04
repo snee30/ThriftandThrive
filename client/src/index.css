@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Cookie&family=Sacramento&family=Winky+Rough:ital,wght@0,300..900;1,300..900&display=swap");
+@import "tailwindcss";
+@plugin "daisyui" {
+  themes: light --default, dark --prefersdark;
+}
+
+@theme {
+  --font-second: "Cookie", cursive;
+  --color-cream: #fdf8e1;
+  --color-sage: #b6c7aa;
+  --color-brown: #74512d;
+  --color-darkbrown: #582f0e;
+  --color-beige: #d5c7a3;
+  --color-darksage: #727d73;
+  --color-forestgreen: #415d43;
+}
+
+:root {
+  /* new colors */
+  --cream: #fdf8e1;
+  --sage: #b6c7aa;
+  --brown: #74512d;
+  --darkbrown: #582f0e;
+  --beige: #d5c7a3;
+  --darksage: #727d73;
+  --forestgreen: #415d43;
+}
+
+* {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  min-width: 400px;
+
+  font-family: "Winky Rough", cursive;
+  font-size: 1.15rem;
+}
+
+img {
+  image-rendering: -webkit-optimize-contrast;
+  image-rendering: crisp-edges;
+}
+.active {
+  color: teal;
+}
