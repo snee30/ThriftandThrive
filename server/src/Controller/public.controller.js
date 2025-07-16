@@ -126,9 +126,7 @@ export const getFeaturedProducts = async (req, res) => {
   try {
     // Step 1: Get all purchased product IDs from OrderItem
     const orderedItems = await OrderItem.find({}, "product");
-    const orderedProductIds = orderedItems.map((item) =>
-      item.product.toString()
-    );
+    const orderedProductIds = orderedItems.map((item) => item.product);
 
     // Step 2: Find approved products that are NOT already ordered and get random 5
     const products = await Product.aggregate([

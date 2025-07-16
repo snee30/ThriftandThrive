@@ -10,6 +10,7 @@ const HomeLayout = () => {
       <Landingscreen />
       <Features />
       <Products />
+
       <Footer />
     </div>
   );

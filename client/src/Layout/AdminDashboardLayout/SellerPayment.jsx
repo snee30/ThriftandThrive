@@ -36,7 +36,7 @@ const SellerPayment = () => {
       </div>
       {/* Payment Cards */}
       {pendingSellerPayments.length === 0 ? (
-        <div className="bg-cream text-[#7f5539] py-20 px-8 rounded-xl shadow-lg text-center max-w-2xl mx-auto pt-30">
+        <div className="bg-cream text-[#7f5539] py-20 px-8 rounded-xl shadow-lg text-center max-w-2xl mx-auto mt-10">
           <p className="text-2xl font-semibold">
             No Pending Payments to Seller
           </p>

@@ -20,7 +20,7 @@ const LoginSignup = () => {
                 className="size-13 rounded-full"
               />
               <p className="text-sm">
-                {user.name.split(" ")[0]} [{role}]
+                {user.name} [{role}]
               </p>
             </div>
             <ul
